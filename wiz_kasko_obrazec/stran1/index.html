@@ -9,30 +9,25 @@
 <body>
     <div class="container">
         <div class="progress-bar">
-            <div class="step completed">
-                <span>1</span>
+            <div class="step active">
                 ZAČETEK
             </div>
             <div class="step">
-                <span>2</span>
                 POTREBE IN ZAHTEVE
             </div>
             <div class="step">
-                <span>3</span>
                 PODATKI
             </div>
             <div class="step">
-                <span>4</span>
                 POVZETEK
             </div>
             <div class="step">
-                <span>5</span>
                 PLAČILO
             </div>
         </div>
 
         <h1>Avto zavarovanje za moj avto</h1>
-        <p>Vnesi registrsko številko svojega osebnega avta. Če številke ne poznaš, klikni gumb PRESKOČI za ročni vnos podatkov. Informativni izračun pridobiš že pri 2. koraku in ga lahko tudi shraniš ali pa nadaljuješ postopek sklenitve.</p>
+        <p>Vnesi registrsko številko svojega osebnega avta. Če številke ne poznaš, klikni gumb PRESKOČI za ročni vnos podatkov. Informativni izračun pridobiš že pri 2. koraku in ga lahko tudi shraniš ali pa nadaljuješ postopek sklenitve. naredi justify alpa absolute left</p>
 
         <div class="form">
             <label for="registrska">Registrska številka</label>
@@ -53,12 +48,16 @@
                 <input type="text" placeholder="Vnesi številko">
             </div>
             <div class="button-group">
-                <button class="skip-btn">Preskoči vnos registrske</button>
-                <button class="next-btn">Naprej</button>
+                <a href="/wiz_kasko_obrazec/stran2/index.html">
+                    <button class="skip-btn">Preskoči vnos registrske</button>
+                </a>
+                <a href="/wiz_kasko_obrazec/stran2/index.html">
+                    <button class="next-btn">Naprej</button>
+                </a>
             </div>
         </div>
 
-        <p class="informative-text">Podatek, ki ga vneseš na tem koraku potrebujemo za pripravo informativnega izračuna in morebitne pomoči pri sklenitvi zavarovanja na podlagi tega informativnega izračuna. Več o obdelavi osebnih podatkov si lahko prebereš <a href="#">TUKAJ</a>.</p>
+        <p class="informative-text">Podatek, ki ga vneseš na tem koraku potrebujemo za pripravo informativnega izračuna in morebitne pomoči pri sklenitvi zavarovanja na podlagi tega informativnega izračuna. Več o obdelavi osebnih podatkov si lahko prebereš <a class ="barva" href="#">TUKAJ</a>.</p>
 
         <div class="payment-options">
             <img src="../slike/mastercard.png" alt="MasterCard">
